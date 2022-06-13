@@ -10,7 +10,7 @@ div#main-content{
     background-repeat: none;
 }
 
-div#information{
+form#information{
     border: 0px solid gray;
     border-radius: 10px 12px 12px 10px;
     margin-left: auto;
@@ -35,4 +35,10 @@ h2{
 
 button{
     width: 25%;
+}
+
+footer{
+    position: absolute;
+    top: 500px;
+    left: 50px;
 }
