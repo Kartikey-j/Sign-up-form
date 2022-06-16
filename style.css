@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Kdam+Thmor+Pro&display=swap');
+
 div#main-content{
     display: flex;
     width: 800px;
@@ -24,13 +26,17 @@ form#information{
 input,
 button,
 h2{
-    width: 40%;
+    width: 50%;
     margin: 10px 20px;
     text-align: center;
     align-self: center;
     border-radius: 5px;
     border: 0px;
-    padding: 6px 20px;
+    padding: 6px 10px;
+}
+
+label{
+    align-self: center;
 }
 
 button{
@@ -41,4 +47,9 @@ footer{
     position: absolute;
     top: 500px;
     left: 50px;
+}
+
+h2{
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    word-spacing: 8px;
 }
